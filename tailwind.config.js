@@ -7,12 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+     colors:{
+     'landRental' : '#7674a5',
+      'landRentalHover' : '#5d5a8c',
     },
   },
+},
   plugins: [],
 };
