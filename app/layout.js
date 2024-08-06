@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/navbar";
+import Modal from "./components/modals/modal";
+import LoginModal from "./components/modals/LoginModal";
+import SignUpModal from "./components/modals/SignUpModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,9 +17,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
+
         <div className="pt-32">
         {children}
         </div>
+
+       <LoginModal/>
+       <SignUpModal/>
         </body>
     </html>
   );
