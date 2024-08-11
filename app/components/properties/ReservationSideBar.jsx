@@ -24,12 +24,3 @@ const ReservationSideBar =()=> {
 
 export default ReservationSideBar;
 
-<div className="flex flex-col space-y-4 mt-4">
-                        <div className="flex items-center space-x-4">
-                            <span className="text-gray-900 font-bold">Price:</span>
-                            <span className="text-lg font-bold text-gray-900">$1,200
-                                <span className="text-lg text-gray-600">/month</span>
-                                </span>
-                                <span className="text-lg text-gray-600">($1,500,000)</span>
-                        </div>
-                    </div>

@@ -25,3 +25,4 @@ const OwnerDetailPage =() => {
 }
 
 export default OwnerDetailPage;
+

@@ -1,4 +1,5 @@
 const SearchFilters =() => {
+    
     return (
         <div className="h-[48px] lg:h-[64px] flex flex-row items-center justify-between border rounded-full">
            <div className="hidden lg:block">
@@ -8,9 +9,9 @@ const SearchFilters =() => {
                             <p className="text-xs font-semibold">Location</p>
                         </div>
 
-                        <div className="cursor-pointer h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
+                        {/* <div className="cursor-pointer h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
                             <p className="text-xs font-semibold">Lease</p>
-                        </div>
+                        </div> */}
 
                         <div className="cursor-pointer h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
                             <p className="text-xs font-semibold">Price</p>
@@ -38,3 +39,4 @@ const SearchFilters =() => {
 }
 
 export default SearchFilters;
+
